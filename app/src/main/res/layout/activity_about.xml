@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aboutmain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:id="@+id/about_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15.0dip"
+        android:text="ABOUT US"
+        android:textColor="@android:color/white"
+        android:textSize="25.0sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about_title"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="200dp"
+                android:src="@drawable/cultura18"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:text="Cultura’18 is here to entice with a plethora of enthusiasm and vibrant excitement indulging events. In its 9th edition this year, Cultura brings forth an extravagance like no other. A myriad of options to fetch one and all the opportunity to outshine the rest.The time for you to blaze into glory is here.  The time to show off your skills is here.The time to be the best you can be is here.Come. Be a part of greatness this Cultura.Be the greatness of Cultura.So come along to  \n Compete. Conquer. Celebrate."
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center_horizontal"
+                android:text="Developers"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:background="#9E9E9E" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:autoLink="phone"
+                android:text="  Darshan Murthy - 8197842703\n  Vinit Kanani - 8123326672\n  Saket Vaibhav - 7259520536\n"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textColorLink="#f2f1eb"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="35dp"
+                android:gravity="center_horizontal"
+                android:text="Co-Ordinators"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:background="#9E9E9E" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginStart="15dp"
+                android:autoLink="phone"
+                android:text=" Vaisakh M - 7259480037\n  Pradhan V - 8147048500\n  Pranamya - 9741297962\n  Chaya N - 9591407324\n  Mahesh J - 7411258309\n  Sanjay Kashyap - 9900860519\n  Malavika Vinay -9900196945\n  Sakshi Jaiswal -7259188710\n  Vinay A - 9035381539\n  Devika Varshini - 7353922211\n  Vamsi Sai - 8147741701"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textColorLink="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="web"
+                android:lineSpacingExtra="5.0dip"
+                android:text="www.cultura.co.in"
+                android:textAlignment="center"
+                android:textColorLink="#ffffd194"
+                android:textSize="28sp"
+                android:layout_marginBottom="25dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_event"
+            android:title="EVENTS" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="SCHEDULE" />
+        <item
+            android:id="@+id/nav_sponser"
+            android:icon="@drawable/ic_sponser"
+            android:title="SPONSORS" />
+
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_location"
+            android:title="LOCATION" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_group_black"
+            android:title="ABOUT US " />
+
+    </group>
+
+    <item android:title="FOLLOW US ON">
+        <menu>
+
+            <item
+                android:id="@+id/nav_youtube"
+                android:icon="@drawable/youtube"
+                android:title="YOUTUBE" />
+
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/facebook"
+                android:title="FACEBOOK" />
+            <item
+                android:id="@+id/nav_instagram"
+                android:icon="@drawable/instagram"
+                android:title="INSTAGRAM " />
+
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "461207322289",
+    "firebase_url": "https://culturaapp18.firebaseio.com",
+    "project_id": "culturaapp18",
+    "storage_bucket": "culturaapp18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461207322289:android:429eda239e7bf754",
+        "android_client_info": {
+          "package_name": "in.co.cultura.cultura18"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461207322289-smh51s27vm18b3k5eke54dh0jtome1ei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.co.cultura.cultura18",
+            "certificate_hash": "7f1f700db76b6afea47a438dc4c5ac3f076398ea"
+          }
+        },
+        {
+          "client_id": "461207322289-s9da438s6rcqa5o12q5a97ofi32c0qg7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.co.cultura.cultura18",
+            "certificate_hash": "4f52ace1a19eb995607d9d3307328eb08b9e5741"
+          }
+        },
+        {
+          "client_id": "461207322289-37ls5u3e34rco6f3vivtlut5ussbi2qi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD64GGj8wT9lloZcq9Lvwy5zKxQR0PeWY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461207322289-37ls5u3e34rco6f3vivtlut5ussbi2qi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
